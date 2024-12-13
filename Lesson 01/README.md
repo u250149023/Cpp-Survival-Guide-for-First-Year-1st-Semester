@@ -43,4 +43,22 @@ In **C++**, header files are used to declare functions and classes. The standard
 - **Case Sensitivity**: C++ distinguishes between uppercase and lowercase letters.
 - **Semicolons**: Every statement must end with a semicolon.
 - **Braces**: Braces define the scope of functions and control structures.
+```cpp
+1	int main() {
+2	    int a = 5;
+3	    a++;
+4	    cout << a;  // Outputs 6
+5	    return 0;
+6	}
+```
+## Comments
+**Comments** in programming are annotations that explain the code, making it easier for developers to understand and maintain. They are ignored by the compiler and do not affect the program's execution.
+
+- **Single-Line** Comments: Begin with `//` and continue to the end of the line.
+- **Multi-Line** Comments: Enclosed between `/*` and `*/`, can span multiple lines.
+```cpp
+1	// This is a single-line comment
+2	/* This is a
+3	   multi-line comment */
+```
 

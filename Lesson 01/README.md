@@ -35,5 +35,12 @@ In **C++**, header files are used to declare functions and classes. The standard
 2	#include <vector>    // Vector container
 3	// Other headers...
 ```
+## Syntax Rules
+**Syntax** rules in programming refer to the guidelines and conventions that determine the structure of a valid program. These rules ensure that the code is properly formatted and can be interpreted correctly by the compiler or interpreter.
 
+**C++** syntax is derived from **C** and includes the following:
+
+- **Case Sensitivity**: C++ distinguishes between uppercase and lowercase letters.
+- **Semicolons**: Every statement must end with a semicolon.
+- **Braces**: Braces define the scope of functions and control structures.
 

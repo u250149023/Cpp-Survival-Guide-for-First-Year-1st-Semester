@@ -15,14 +15,14 @@ Welcome to the **C++ Survival Guide for First-Year**! This cheat sheet is your u
 Whether you're writing your first "Hello, World!" program or exploring more complex concepts, this cheat sheet provides clear explanations and useful code snippets to help you understand and remember key topics.
 
 ### What You'll Find Inside:
-1. [Lesson 01: Programming Fundamentals](./Lesson01/README.md) Learn the core basics to get started.
-- **Operators**: Understand the different operators and their uses.
-- **Strings**: Handle and manipulate text data.
-- **Typecasting**: Convert data types for various operations.
-- **Built-in Libraries**: Use the power of standard libraries.
-- **Arrays**: Manage collections of data efficiently.
-- **Selection Structures**: Control the flow of your program with conditions.
-- **Iterative Structures**: Use loops to repeat operations effectively.
+- [Lesson 01: Programming Fundamentals: ](./Lesson01/README.md) Learn the core basics to get started.
+- [Lesson 02: Operators: ](./Lesson02/README.md) Understand the different operators and their uses.
+- [Lesson 03: Strings: ](./Lesson03/README.md) Handle and manipulate text data.
+- [Lesson 04: Typecasting: ](./Lesson04/README.md) Convert data types for various operations.
+- [Lesson 05: Built-in Libraries](./Lesson05/README.md) Use the power of standard libraries.
+- [Lesson 06: Arrays](./Lesson06/README.md) Manage collections of data efficiently.
+- [Lesson 07: Selection Structures](./Lesson07/README.md) Control the flow of your program with conditions.
+- [Lesson 08: Iterative Structures](./Lesson08/README.md) Use loops to repeat operations effectively.
 
 This guide is crafted to be a quick reference for your C++ programming journey, ensuring that you have all the essential information at your fingertips. Happy coding, and welcome to the world of C++!
 

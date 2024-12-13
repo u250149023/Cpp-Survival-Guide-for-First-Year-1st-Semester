@@ -30,4 +30,10 @@ In **C++**, header files are used to declare functions and classes. The standard
 - `<string>`: To use the string class.
 - `<algorithm>`: For common algorithms like sort, search, etc.
 - `<cmath>`: For mathematical functions.
+```cpp
+1	#include <iostream>  // Standard I/O
+2	#include <vector>    // Vector container
+3	// Other headers...
+```
+
 

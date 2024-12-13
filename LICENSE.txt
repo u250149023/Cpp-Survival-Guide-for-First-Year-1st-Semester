@@ -1,7 +1,0 @@
-Custom Proprietary License
-
-Copyright (c) 2024 [JOHN ANGELO L. LAURIO]. All rights reserved.
-
-Permission is hereby granted to any person obtaining a copy of this software to view the code. Copying, modifying, merging, publishing, distributing, sublicensing, and/or selling copies of the software are prohibited without explicit permission from the author.
-
-For permissions and inquiries, please contact [lauriojohnangelo@gmail.com].

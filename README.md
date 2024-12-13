@@ -15,7 +15,7 @@ Welcome to the **C++ Survival Guide for First-Year**! This cheat sheet is your u
 Whether you're writing your first "Hello, World!" program or exploring more complex concepts, this cheat sheet provides clear explanations and useful code snippets to help you understand and remember key topics.
 
 ### What You'll Find Inside:
-1. [Lesson 01: Programming Fundamentals] (/Lesson 01/README.md) Learn the core basics to get started.
+1. [Lesson 01: Programming Fundamentals](./Lesson01/README.md) Learn the core basics to get started.
 - **Operators**: Understand the different operators and their uses.
 - **Strings**: Handle and manipulate text data.
 - **Typecasting**: Convert data types for various operations.

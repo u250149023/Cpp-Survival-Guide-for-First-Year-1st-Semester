@@ -62,3 +62,10 @@ In **C++**, header files are used to declare functions and classes. The standard
 3	   multi-line comment */
 ```
 
+## Variables
+**Variables** are essential storage units in C++ programming. Here are the rules for naming variables:
+- **Start with a Letter or Underscore**: Variable names must begin with a letter (A-Z or a-z) or an underscore (_).
+- **Alphanumeric and Underscores**: Variable names can include letters, digits, and underscores.
+- **Avoid Reserved Keywords**: Reserved words in C++ (such as `class`, `void`, `int`, etc.) cannot be used as variable names.
+- **Case Sensitivity**: C++ is case-sensitive, meaning `Variable`, `variable`, and `VARIABLE` are considered different.
+

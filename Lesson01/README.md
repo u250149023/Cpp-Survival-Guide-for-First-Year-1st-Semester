@@ -76,7 +76,7 @@ In **C++**, header files are used to declare functions and classes. The standard
 
 ## Data Types
 **Data types** define the kind of data that can be stored and manipulated within a program. **C++** supports a variety of data types:
-**Basic Data Types**: These include `int` (integer), `char` (character), `float` (floating-point), and `double` (double precision floating-point).
-**Derived Data Types**: These include `arrays` (collections of elements), `pointers` (variables that store memory addresses), and user-defined types such as `classes`.
+- **Basic Data Types**: These include `int` (integer), `char` (character), `float` (floating-point), and `double` (double precision floating-point).
+- **Derived Data Types**: These include `arrays` (collections of elements), `pointers` (variables that store memory addresses), and user-defined types such as `classes`.
 
 

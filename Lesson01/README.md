@@ -68,4 +68,17 @@ In **C++**, header files are used to declare functions and classes. The standard
 - **Alphanumeric and Underscores**: Variable names can include letters, digits, and underscores.
 - **Avoid Reserved Keywords**: Reserved words in C++ (such as `class`, `void`, `int`, etc.) cannot be used as variable names.
 - **Case Sensitivity**: C++ is case-sensitive, meaning `Variable`, `variable`, and `VARIABLE` are considered different.
+```cpp
+1	int mainCount;
+2	float totalPrice;
+3	bool isValid;
+```
+
+## Data Types
+**Data types** define the kind of data that can be stored and manipulated within a program. **C++** supports a variety of data types:
+
+**Basic Data Types**: These include `int` (integer), `char` (character), `float` (floating-point), and `double` (double precision floating-point).
+
+Derived Data Types: These include `arrays` (collections of elements), `pointers` (variables that store memory addresses), and user-defined types such as `classes`.
+
 

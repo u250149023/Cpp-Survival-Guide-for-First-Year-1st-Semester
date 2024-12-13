@@ -24,9 +24,10 @@ int main() {
 ## Headers 
 
 In **C++**, header files are used to declare functions and classes. The standard library headers generally do not have a `.h` extension. Some frequently used headers are:
-`<iostream>`: For standard input and output stream objects like cin and cout.
-`<vector>`: For using the vector container.
-`<string>`: To use the string class.
-`<algorithm>`: For common algorithms like sort, search, etc.
-`<cmath>`: For mathematical functions.
+
+- `<iostream>`: For standard input and output stream objects like cin and cout.
+- `<vector>`: For using the vector container.
+- `<string>`: To use the string class.
+- `<algorithm>`: For common algorithms like sort, search, etc.
+- `<cmath>`: For mathematical functions.
 

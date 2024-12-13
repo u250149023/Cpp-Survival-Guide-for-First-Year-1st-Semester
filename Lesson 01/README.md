@@ -10,7 +10,7 @@
 - **Namespace Declaration**: Using `namespace std;` to avoid prefixing with `std::`.
 - **Function Definitions**: Including the `main()` function where execution starts.
 - **Statements and Expressions**: To perform operations and computations.
-```c++
+```
 #include <iostream>
 
 using namespace std;

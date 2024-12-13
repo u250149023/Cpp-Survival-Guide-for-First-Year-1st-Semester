@@ -79,4 +79,21 @@ In **C++**, header files are used to declare functions and classes. The standard
 - **Basic Data Types**: These include `int` (integer), `char` (character), `float` (floating-point), and `double` (double precision floating-point).
 - **Derived Data Types**: These include `arrays` (collections of elements), `pointers` (variables that store memory addresses), and user-defined types such as `classes`.
 
+## Constant 
+**Constants** are fixed values that do not change during the execution of a program. They are used to define data that remains the same, providing a way to protect critical values from being altered.
+
+- **Literals**: Directly assigned constant values like `42`, `'A'`, `3.14`, `"Hello, World!"`.
+- **const Keyword**: Used to declare `constants`. Once a value is assigned, it cannot be changed.
+```cpp
+1	const int MAX_SIZE = 100;
+```
+## Reserved Words
+**Reserved words** (also known as keywords) are predefined words in **C++** that have special meaning to the compiler. These words cannot be used as identifiers (such as **variable names**, **function names**, etc.) because they are part of the **C++ syntax**.
+
+- **Data Types**: `int`, `char`, `float`, `double`, `void`, `bool`
+- **Control Structures**: `if`, `else`, `switch`, `case`, `for`, `while`, `do`, `break`, `continue`
+- **Access Specifiers**: `public`, `private`, `protected`
+- **Class Related**: `class`, `struct`, `union`, `enum`, `new`, `delete`, `this`
+- **Other Keywords**: `return`, `const`, `static`, `extern`, `register`, `sizeof`, `typedef`, `namespace`, `using`
+
 

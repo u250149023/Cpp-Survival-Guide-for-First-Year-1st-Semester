@@ -49,3 +49,5 @@ int main() {
 ```
 In the above code, `std::fixed` and `std::setprecision(2)` are manipulators used to specify the number of decimal places for the `num2` variable. The output will display the values of the variables in the specified format.
 
+[NextTopic>>](./Topic03.md)
+

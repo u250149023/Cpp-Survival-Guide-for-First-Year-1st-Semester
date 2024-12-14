@@ -1,1 +1,2 @@
-
+# Arithmetic Operators
+**Arithmetic operators** are key components of programming languages, including C++, enabling mathematical operations on numerical values. In C++, basic arithmetic operators are similar to those in C and include addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), and modulus (`%`). Additionally, C++ supports increment (`++`), decrement (`--`), and other arithmetic operations. Correct usage of these operators, along with an understanding of operator precedence and associativity, is essential for crafting accurate and efficient mathematical expressions in your programs. This guide will discuss the use of basic arithmetic operators in C++ and provide an overview of operator precedence and associativity.

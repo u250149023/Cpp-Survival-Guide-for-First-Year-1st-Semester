@@ -69,4 +69,5 @@ int main() {
 ```
 In the above code, various data types are used, and `cin` is used to accept input for each of them using the appropriate extraction `>>` operator.
 
+[Lesson02>>](./Lesson02/Topic01.md)
 

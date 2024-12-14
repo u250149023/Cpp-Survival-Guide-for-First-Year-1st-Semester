@@ -15,7 +15,7 @@ Welcome to the **C++ Survival Guide for First-Year**! This Learning Materials is
 Whether you're writing your first "Hello, World!" program or exploring more complex concepts, this Learning Materials provides clear explanations and useful code snippets to help you understand and remember key topics.
 
 ### What You'll Find Inside:
-- [Lesson 01: Programming Fundamentals](./Lesson01) : Learn the core basics to get started.
+- [Lesson 01: Programming Fundamentals](./Lesson01/Topic01) : Learn the core basics to get started.
 - [Lesson 02: Operators](./Lesson02) : Understand the different operators and their uses.
 - [Lesson 03: Strings]() : Handle and manipulate text data.
 - [Lesson 04: Typecasting]() : Convert data types for various operations.

@@ -18,34 +18,34 @@ The `cout` stream prints "Hello, World!" to the screen. The operator inserts dat
 
 The `\n` character inserts a newline in the output, moving the cursor to the next line's start and helping to format text neatly. While `std::endl` is common, `\n` is more efficient when you don't need to flush the output buffer.
 ```cpp
-1.  #include <iostream>
-2.  
-3.  int main() {
-4.      std::cout << "First line\n";
-5.      std::cout << "Second line\n";
-6.      std::cout << "Third line\n";
-7.      return 0;
-8.  }
+#include <iostream>
+  
+int main() {
+    std::cout << "First line\n";
+    std::cout << "Second line\n";
+    std::cout << "Third line\n";
+    return 0;
+}
 ```
 
 ## Using cout for Formatted Output
 
 The `cout` stream in C++ allows you to format the output, like setting decimal places for numbers or adding spaces to strings. You use manipulators with `cout` to control this formatting.
 ```cpp
-1.  #include <iostream>
-2.  #include <iomanip>
-3.
-4.  int main() {
-5.      int num1 = 10;
-6.      float num2 = 3.14159;
-7.      char letter = 'A';
-8.
-9.      std::cout << "Integer: " << num1 << std::endl;
-10.     std::cout << "Float: " << std::fixed << std::setprecision(2) << num2 << std::endl;
-11.     std::cout << "Character: " << letter << std::endl;
-12.
-13.     return 0;
-14. }
+#include <iostream>
+#include <iomanip>
+
+int main() {
+    int num1 = 10;
+    float num2 = 3.14159;
+    char letter = 'A';
+
+    std::cout << "Integer: " << num1 << std::endl;
+    std::cout << "Float: " << std::fixed << std::setprecision(2) << num2 << std::endl;
+    std::cout << "Character: " << letter << std::endl;
+
+    return 0;
+}
 ```
 In the above code, `std::fixed` and `std::setprecision(2)` are manipulators used to specify the number of decimal places for the `num2` variable. The output will display the values of the variables in the specified format.
 

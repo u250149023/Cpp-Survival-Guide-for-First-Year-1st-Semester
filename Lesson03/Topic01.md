@@ -44,6 +44,7 @@ String concatenation is the process of combining two or more strings into a sing
 13. }
 ```
 The output will be: "HelloWorld".
+
 ---
 ### String Comparison
 String comparison is used to determine the order or equality of two strings. In C++, you can compare strings using the comparison operators (`<`, `>`, `<=`, `>=`, `==`, `!=`) or the `compare` member function of the `std::string` class. Here's an example:
@@ -63,6 +64,7 @@ String comparison is used to determine the order or equality of two strings. In 
 13. }
 ```
 The output will be: "0" (indicating that the strings are equal).
+
 ---
 ### String Copying
 String copying involves copying the contents of one string to another. In C++, you can simply assign one string to another using the assignment operator (`=`). Here's an example:

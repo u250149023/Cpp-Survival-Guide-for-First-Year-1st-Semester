@@ -16,7 +16,7 @@ Whether you're writing your first "Hello, World!" program or exploring more comp
 
 ### What You'll Find Inside:
 - [Lesson 01: Programming Fundamentals](./Lesson01) : Learn the core basics to get started.
-- [Lesson 02: Operators]() : Understand the different operators and their uses.
+- [Lesson 02: Operators](./Lesson02) : Understand the different operators and their uses.
 - [Lesson 03: Strings]() : Handle and manipulate text data.
 - [Lesson 04: Typecasting]() : Convert data types for various operations.
 - [Lesson 05: Built-in Libraries]() : Use the power of standard libraries.

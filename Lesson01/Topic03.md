@@ -1,4 +1,4 @@
-## Basic Escape Sequences
+# Basic Escape Sequences
 **Escape sequences** are unique character combinations that let you represent characters which are hard to type or have special meanings within a string. In C++ programming, these sequences help to include characters that can’t be directly typed into a string. This guide will discuss common escape sequences in C++, how to use them, and provide examples to showcase their functionality.
 
 ## Common Escape Sequences

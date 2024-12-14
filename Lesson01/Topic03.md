@@ -26,3 +26,5 @@
 13.     return 0;
 14. }
 ```
+In the above code, each `std::cout` statement demonstrates the usage of a different escape sequence. The output will display the corresponding special characters and their effects.
+

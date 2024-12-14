@@ -95,5 +95,4 @@ In **C++**, header files are used to declare functions and classes. The standard
 - **Access Specifiers**: `public`, `private`, `protected`
 - **Class Related**: `class`, `struct`, `union`, `enum`, `new`, `delete`, `this`
 - **Other Keywords**: `return`, `const`, `static`, `extern`, `register`, `sizeof`, `typedef`, `namespace`, `using`
-
-
+- [**Next topic**](./Lesson01/Topic02)

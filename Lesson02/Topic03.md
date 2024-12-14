@@ -41,4 +41,38 @@
 2	---------
 3	    0101
 ```
+---
+
+```cpp
+1	#include <iostream>
+2	
+3	int main() {
+4	    unsigned int num1 = 10;    // Binary: 0000 1010
+5	    unsigned int num2 = 6;     // Binary: 0000 0110
+6	
+7	    unsigned int result;
+8	
+9	    result = num1 & num2;      // Bitwise AND: 0000 0010 (2 in decimal)
+10	    std::cout << "AND Result: " << result << std::endl;
+11	
+12	    result = num1 | num2;      // Bitwise OR: 0000 1110 (14 in decimal)
+13	    std::cout << "OR Result: " << result << std::endl;
+14	
+15	    result = num1 ^ num2;      // Bitwise XOR: 0000 1100 (12 in decimal)
+16	    std::cout << "XOR Result: " << result << std::endl;
+17	
+18	    result = ~num1;            // Bitwise complement: 1111 0101 (245 in decimal)
+19	    std::cout << "Complement Result: " << result << std::endl;
+20	
+21	    result = num1 << 2;        // Left shift by 2: 0010 1000 (40 in decimal)
+22	    std::cout << "Left Shift Result: " << result << std::endl;
+23	
+24	    result = num2 >> 1;        // Right shift by 1: 0000 0011 (3 in decimal)
+25	    std::cout << "Right Shift Result: " << result << std::endl;
+26	
+27	    return 0;
+28	}
+```
+
+
 

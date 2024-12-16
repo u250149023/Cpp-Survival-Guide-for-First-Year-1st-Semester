@@ -20,5 +20,19 @@ sometimes called type conversion, involves the programmer specifying the desired
 ```
 In this example, the floating-point value `c` is explicitly converted to an integer value `d` using the `static_cast<int>` operator.
 
+## Casting Between Different Data Types
+**Converting between data types** in C++ enables you to change how a value is interpreted and represented. It's important to recognize the constraints and potential hazards of casting, as it can lead to data loss, truncation, or unpredictable behavior. Here are some examples of casting between different data types:
+```cpp
+1	int x = 65;
+2	char y = static_cast<char>(x);  // Explicitly casting int to char
+3	
+4	double a = 3.14;
+5	int b = static_cast<int>(a);  // Explicitly casting double to int
+6	
+7	int p = 100;
+8	float q = static_cast<float>(p);  // Explicitly casting int to float
+```
+
+
 
 

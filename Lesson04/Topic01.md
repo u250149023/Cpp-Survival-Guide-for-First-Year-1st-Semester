@@ -32,6 +32,28 @@ In this example, the floating-point value `c` is explicitly converted to an inte
 7	int p = 100;
 8	float q = static_cast<float>(p);  // Explicitly casting int to float
 ```
+In these examples, the values are explicitly casted to the desired data types using the `static_cast` operator. Now, let's further explore explicit typecasting between `char` and `int` in handling ASCII values:
+```cpp
+#include <iostream>
+
+int main() {
+	char ch = 'A'; // A character 'A'
+	int asciiValue = static_cast<int>(ch); // Explicitly casting char to int to get ASCII value
+
+	std::cout << "Character: " << ch << std::endl;
+	std::cout << "ASCII Value: " << asciiValue << std::endl;
+
+	// Now, let's do the reverse: casting from int (ASCII value) back to char
+	int anotherAsciiValue = 98;
+	char anotherChar = static_cast<char>(anotherAsciiValue); // Explicitly casting int to char
+
+	std::cout << "ASCII Value: " << anotherAsciiValue << std::endl;
+	std::cout << "Character: " << anotherChar << std::endl;
+
+	return 0;
+}
+```
+In this example, we start with the character `'A'` and explicitly cast it to an int, resulting in the ASCII value `65`. Then, we perform the reverse operation by explicitly casting an integer `98` back to a `char`, which corresponds to the character `'b'`.
 
 
 

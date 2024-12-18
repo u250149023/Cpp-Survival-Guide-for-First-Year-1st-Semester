@@ -28,5 +28,25 @@ For example, to access the first element of the numbers array created earlier, y
 ```cpp
 1	int firstElement = numbers[0];
 ```
+## Modifying Array Elements
+You can modify the values of array elements by assigning new values to them. To modify an element, you can use the following syntax:
+```cpp
+1	arrayName[index] = newValue;
+```
+Here, ***arrayName*** is the name of the array, index is the position of the element you want to modify, and newValue is the new value you want to assign.
 
+For example, to change the value of the second element of the numbers array to 10, you can use the following code:
+```cpp
+1	numbers[1] = 10;
+```
+
+## Traversing One-Dimensional Arrays
+Traversing an array means accessing and processing each element of the array. You can use loops, such as the `for` loop or the `while` loop, to iterate over the elements of an array and perform operations on them.
+Here's an example that uses a `for` loop to print the elements of the numbers array:
+```cpp
+1	for (int i = 0; i < 5; i++) {
+2	    cout << numbers[i] << " ";
+3	}
+```
+In this example, the loop starts from index 0 and continues until index 4 (the size of the array minus 1). The `cout` statement prints each element of the array on the console.
 

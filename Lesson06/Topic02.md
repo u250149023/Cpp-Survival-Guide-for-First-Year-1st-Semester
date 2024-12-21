@@ -1,7 +1,7 @@
 # One Dimensional Arrays
 A one-dimensional array, often referred to simply as an array, is a data structure that stores a collection of elements of the same type in a single, linear sequence. Think of it as a list of items where each item can be accessed by its position or index in the list.
 
-## Creating and modifying array elements
+## Creating, Traversing, and Modifying a One-Dimensional Array in C++
 ```cpp
 #include <iostream>
 using namespace std;

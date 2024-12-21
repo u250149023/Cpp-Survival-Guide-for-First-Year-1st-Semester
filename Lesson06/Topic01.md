@@ -44,7 +44,7 @@ int value = numbers[2];  // 'value' will be 3
 - `numbers[2]` accesses the element at index 2 of the `numbers` array, which is `3`. The value `3` is then assigned to the `variable` value.
 
 ---
-## TIPS
+## TIPS : 
 1. Avoid Out-of-Bounds Access
 - Tip: Always ensure you are accessing valid indices within the array bounds to avoid undefined behavior.
 - Common Mistake: Accessing an index that is outside the array's declared size.

@@ -75,18 +75,20 @@ int main() {
     return 0;
 }
 ```
+
 1. Array Declaration and Initialization:
 ```cpp
 int arr[] = {10, 20, 30, 40, 50};
 ```
- - Declares and initializes a one-dimensional array named `arr` with 5 integer elements: `{10, 20, 30, 40, 50}`.
+- Declares and initializes a one-dimensional array named `arr` with 5 integer elements: `{10, 20, 30, 40, 50}`.
+
 2. Calculating Array Size Using `sizeof`:
 ```cpp
 int size = sizeof(arr) / sizeof(arr[0]);
 ```
- - `sizeof(arr)` gives the total size of the array in bytes.
- - `sizeof(arr[0])` gives the size of the first element in bytes.
- - `sizeof(arr) / sizeof(arr[0])` calculates the number of elements in the array.
+- `sizeof(arr)` gives the total size of the array in bytes.
+- `sizeof(arr[0])` gives the size of the first element in bytes.
+- `sizeof(arr) / sizeof(arr[0])` calculates the number of elements in the array.
 
 3. Traversing the Array Using a For Loop:
 ```cpp
@@ -94,8 +96,8 @@ for (int i = 0; i < size; i++) {
     cout << arr[i] << " "; // Access and print each element
 }
 ```
- - The `for` loop initializes `i` to 0.
- - The loop condition `i < size` ensures the loop runs until i reaches the size of the array.
- - `arr[i]` accesses the element at index `i` and `cout << arr[i] << " ";` prints each element followed by a space.
+- The `for` loop initializes `i` to 0.
+- The loop condition `i < size` ensures the loop runs until i reaches the size of the array.
+- `arr[i]` accesses the element at index `i` and `cout << arr[i] << " ";` prints each element followed by a space.
 
 This example demonstrates C++ program that uses a `for` loop to traverse a one-dimensional array and the `sizeof` operator to determine the array's size.

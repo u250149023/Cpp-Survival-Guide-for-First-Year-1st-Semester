@@ -82,6 +82,7 @@ int arr[] = {10, 20, 30, 40, 50};
 ```
 - Declares and initializes a one-dimensional array named `arr` with 5 integer elements: `{10, 20, 30, 40, 50}`.
 
+
 2. Calculating Array Size Using `sizeof`:
 ```cpp
 int size = sizeof(arr) / sizeof(arr[0]);
@@ -89,6 +90,7 @@ int size = sizeof(arr) / sizeof(arr[0]);
 - `sizeof(arr)` gives the total size of the array in bytes.
 - `sizeof(arr[0])` gives the size of the first element in bytes.
 - `sizeof(arr) / sizeof(arr[0])` calculates the number of elements in the array.
+
 
 3. Traversing the Array Using a For Loop:
 ```cpp

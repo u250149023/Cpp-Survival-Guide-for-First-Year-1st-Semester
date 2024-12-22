@@ -1,7 +1,7 @@
 # Array Traversal
 Array traversal is the process of accessing and processing each element of an array, typically in a sequential manner. This operation is fundamental in programming because it allows you to examine, modify, or utilize each element within the array.
 
-## Tips for Array Traversal in C++
+### Tips for Array Traversal in C++
 1. Efficient Looping:
 - Tip: Optimize your loop conditions to minimize repeated calculations.
 - Example: Store the length of the array in a variable instead of calculating it in every loop iteration.
@@ -55,7 +55,7 @@ do {
 ```
 ---
 
-### Traversing a One-Dimensional Array Using a For Loop and sizeof in C++
+## Traversing a One-Dimensional Array Using a For Loop and sizeof in C++
 ```cpp
 #include <iostream>
 using namespace std;
@@ -106,7 +106,7 @@ This example demonstrates C++ program that uses a `for` loop to traverse a one-d
 
 ---
 
-### Traversing a One-Dimensional Array Using a While Loop and sizeof in C++
+## Traversing a One-Dimensional Array Using a While Loop and sizeof in C++
 ```cpp
 #include <iostream>
 using namespace std;
@@ -163,4 +163,99 @@ while (i < length) { // Condition
 cout << endl; // Move to the next line after printing all elements
 ```
 This example demonstrates how to use a `while` loop to traverse a one-dimensional array in C++, including boundary checking to ensure safe access to array elements.
+
+## Calculating the Sum of a Two-Dimensional Array with User Input Using Nested For Loops and sizeof in C++
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows, cols;
+
+    // Ask user for the dimensions of the array
+    cout << "Enter the number of rows: ";
+    cin >> rows;
+    cout << "Enter the number of columns: ";
+    cin >> cols;
+
+    // Declaring the 2D array with the specified dimensions
+    int matrix[rows][cols];
+
+    // Asking user to input values into the 2D array
+    cout << "Enter the elements of the array:" << endl;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            cin >> matrix[i][j];
+        }
+    }
+
+    // Calculating the sum of all elements in the array
+    int sum = 0;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            sum += matrix[i][j];
+        }
+    }
+
+    // Output the sum of all elements
+    cout << "The sum of all elements in the array is: " << sum << endl;
+
+    return 0;
+}
+```
+1. Ask User for Dimensions:
+    - Prompts the user to enter the number of rows and columns for the 2D array.
+```cpp
+int rows, cols;
+cout << "Enter the number of rows: ";
+cin >> rows;
+cout << "Enter the number of columns: ";
+cin >> cols;
+```
+2. Declare the 2D Array:
+    - Declares a two-dimensional array named `matrix` with the specified number of rows and columns.
+```cpp
+int matrix[rows][cols];
+```
+
+
+3. Input Values into the Array:
+    - Prompts the user to input values for each element of the array using nested `for` loops.
+```cpp
+cout << "Enter the elements of the array:" << endl;
+for (int i = 0; i < rows; i++) {
+    for (int j = 0; j < cols; j++) {
+        cin >> matrix[i][j];
+    }
+}
+```
+
+4. Calculate the Sum of All Elements:
+    - Initializes `sum` to 0.
+    - Uses nested `for` loops to iterate through each element of the array and adds it to `sum`.
+```cpp
+int sum = 0;
+for (int i = 0; i < rows; i++) {
+    for (int j = 0; j < cols; j++) {
+        sum += matrix[i][j];
+    }
+}
+```
+
+5. Output the Sum:
+```cpp
+cout << "The sum of all elements in the array is: " << sum << endl;
+```
+Prints the sum of all elements in the array.
+
+**Full Output Example:**
+```cpp
+Enter the number of rows: 3
+Enter the number of columns: 4
+Enter the elements of the array:
+1 2 3 4
+5 6 7 8
+9 10 11 12
+The sum of all elements in the array is: 78
+```
 

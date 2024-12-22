@@ -7,7 +7,7 @@ Key Characteristics:
 - **Contiguous Memory**: The elements are stored in contiguous memory locations.
 - **Indexing**: Elements are accessed using multiple indices, one for each dimension.
 
-## Creating, Traversing, and Modifying a One-Dimensional Array in C++
+## Creating, Traversing, and Modifying a Two-Dimensional Array in C++
 ```cpp
 #include <iostream>
 using namespace std;

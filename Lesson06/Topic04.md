@@ -53,6 +53,8 @@ do {
     i++;
 } while
 ```
+---
+
 ### Traversing a One-Dimensional Array Using a For Loop and sizeof in C++
 ```cpp
 #include <iostream>
@@ -101,6 +103,8 @@ for (int i = 0; i < size; i++) {
 ```
 
 This example demonstrates C++ program that uses a `for` loop to traverse a one-dimensional array and the `sizeof` operator to determine the array's size.
+
+---
 
 ### Traversing a One-Dimensional Array Using a While Loop and sizeof in C++
 ```cpp
@@ -158,4 +162,5 @@ while (i < length) { // Condition
 }
 cout << endl; // Move to the next line after printing all elements
 ```
+This example demonstrates how to use a `while` loop to traverse a one-dimensional array in C++, including boundary checking to ensure safe access to array elements.
 

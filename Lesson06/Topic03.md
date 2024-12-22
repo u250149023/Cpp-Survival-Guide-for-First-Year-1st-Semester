@@ -49,3 +49,63 @@ int main() {
     - `for (int j = 0; j < 4; j++) { ... }`: This inner loop iterates through each column of the current row (from column 0 to column 3).
     - `cout << matrix[i][j] << " ";`: This prints the element at the current row `i` and column `j`, followed by a space.
     - `cout << endl;`: After printing all elements in a row, this moves the cursor to the next line, effectively creating a new line for the next row.
+
+## Creating, Traversing, and Modifying a Three-Dimensional Array in C++
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declaring and initializing a 3D array with 2 layers, 3 rows, and 4 columns
+    int array3D[2][3][4] = {
+        {
+            {1, 2, 3, 4},
+            {5, 6, 7, 8},
+            {9, 10, 11, 12}
+        },
+        {
+            {13, 14, 15, 16},
+            {17, 18, 19, 20},
+            {21, 22, 23, 24}
+        }
+    };
+
+    // Accessing and printing an element of the 3D array
+    cout << "Element at [1][2][3]: " << array3D[1][2][3] << endl; // Output: 24
+
+    // Traversing the 3D array using nested loops
+    cout << "All elements in the 3D array:" << endl;
+    for (int i = 0; i < 2; i++) { // Loop through layers
+        for (int j = 0; j < 3; j++) { // Loop through rows
+            for (int k = 0; k < 4; k++) { // Loop through columns
+                cout << array3D[i][j][k] << " "; // Access and print each element
+            }
+            cout << endl; // Move to the next row
+        }
+        cout << endl; // Move to the next layer
+    }
+
+    return 0;
+}
+```
+1. Array Declaration and Initialization:
+    - Declares a 3D array named `array3D` with 2 layers, 3 rows, and 4 columns. Each layer is a 2D array (matrix) with 3 rows and 4 columns.
+    - Initializes the array with the specified values:
+        - First layer:
+          Row 1: `{1, 2, 3, 4}`
+          Row 2: `{5, 6, 7, 8}`
+          Row 3: `{9, 10, 11, 12}`
+
+        - Second layer:
+          Row 1: `{13, 14, 15, 16}`
+          Row 2: `{17, 18, 19, 20}`
+          Row 3: `{21, 22, 23, 24}`
+2. Accessing and Printing an Element:
+    - `array3D[1][2][3]`: Accesses the element at the second layer (index 1), third row (index 2), and fourth column (index 3) of the `array3D`. The value at this position is 24.
+    - Prints the accessed element. The output will be `Element at [1][2][3]: 24`.
+3. Traversing the 3D Array Using Nested Loops:
+    - Uses nested `for` loops to traverse the 3D array.
+    - The outer loop iterates through the layers (depth).
+    - The middle loop iterates through the rows of each layer.
+    - The inner loop iterates through the columns of each row.
+    - Prints each element, row by row, and layer by layer.

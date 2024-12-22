@@ -35,3 +35,8 @@ int main() {
     return 0;
 }
 ```
+
+- `int matrix[3][4] = { ... };`: Here, a two-dimensional array named `matrix` is declared and initialized. It has 3 rows and 4 columns. Each element of the array is specified in a nested list:
+    The first row contains `{1, 2, 3, 4}`
+    The second row contains `{5, 6, 7, 8}`
+    The third row contains `{9, 10, 11, 12}`

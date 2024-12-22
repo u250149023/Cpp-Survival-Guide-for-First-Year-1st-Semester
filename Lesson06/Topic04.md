@@ -101,3 +101,61 @@ for (int i = 0; i < size; i++) {
 ```
 
 This example demonstrates C++ program that uses a `for` loop to traverse a one-dimensional array and the `sizeof` operator to determine the array's size.
+
+### Traversing a One-Dimensional Array Using a While Loop and sizeof in C++
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declaring and initializing a 1D array
+    int arr[] = {10, 20, 30, 40, 50};
+
+    // Calculating the number of elements in the array using sizeof
+    int length = sizeof(arr) / sizeof(arr[0]);
+
+    // Traversing the 1D array using a while loop
+    int i = 0; // Initialization
+    cout << "Elements of the array are: ";
+    while (i < length) { // Condition
+        if (i >= 0 && i < length) { // Boundary check
+            cout << arr[i] << " "; // Access and print each element
+        }
+        i++; // Increment
+    }
+    cout << endl; // Move to the next line after printing all elements
+
+    return 0;
+}
+```
+1. Array Declaration and Initialization:
+    - Declares and initializes a one-dimensional array named arr with 5 integer elements: `{10, 20, 30, 40, 50}`.
+```cpp
+int arr[] = {10, 20, 30, 40, 50};
+```
+2. Calculating Array Size Using sizeof:
+    - `sizeof(arr)` gives the total size of the array in bytes.
+    - `sizeof(arr[0])` gives the size of the first element in bytes.
+    - `sizeof(arr) / sizeof(arr[0])` calculates the number of elements in the array.
+```cpp
+int length = sizeof(arr) / sizeof(arr[0]);
+```
+
+3. Traversing the Array Using a While Loop:
+    - Initializes `i` to 0.
+    - The `while` loop runs as long as `i` is less than `length` (the number of elements in the array).
+    - The `if` condition ensures that `i` is within valid bounds.
+    - `cout << arr[i] << " ";` accesses and prints each element.
+    - `i++` increments the index to move to the next element.
+```cpp
+int i = 0; // Initialization
+cout << "Elements of the array are: ";
+while (i < length) { // Condition
+    if (i >= 0 && i < length) { // Boundary check
+        cout << arr[i] << " "; // Access and print each element
+    }
+    i++; // Increment
+}
+cout << endl; // Move to the next line after printing all elements
+```
+

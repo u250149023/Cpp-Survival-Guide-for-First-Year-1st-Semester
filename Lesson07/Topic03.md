@@ -79,16 +79,16 @@ int main() {
     return 0;
 }
 ```
-- **Input**: cin is used to get the user's age, permission status, and membership status.
-- **Outer Condition**: if (age >= 18) checks if the user's age is 18 or older.
+- **Input**: `cin` is used to get the user's age, permission status, and membership status.
+- **Outer Condition**: `if (age >= 18)` checks if the user's age is 18 or older.
 - **Nested Conditions with Logical Operators**:
-    - && (and): Ensures both conditions are true.
-    - || (or): Ensures at least one condition is true.
-    - ! (not): Inverts the condition.
+    - `&&` (and): Ensures both conditions are true.
+    - `||` (or): Ensures at least one condition is true.
+    - `!` (not): Inverts the condition.
 
 - **Comparison Operators**:
-    - == (equal to): Checks if two values are equal.
-    - != (not equal to): Checks if two values are not equal.
-    - > (greater than) and < (less than): Compare numerical values.
+    - `==` (equal to): Checks if two values are equal.
+    - `!=` (not equal to): Checks if two values are not equal.
+    - `>` (greater than) and < (less than): Compare numerical values.
 
 This structure demonstrates how to use nested decisions with various logical and comparison operators.

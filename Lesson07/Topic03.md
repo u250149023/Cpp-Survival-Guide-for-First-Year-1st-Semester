@@ -1,28 +1,27 @@
 # Boolean Operators
 Boolean operators, also known as logical operators, are used in programming to perform logical operations on boolean values (true or false). These operators allow you to combine multiple conditions or invert conditions to make more complex logical decisions.
 
-Common Boolean Operators:
+## Common Boolean Operators:
 
-AND (`&&`):
+- AND (`&&`):
 Returns true if both operands are true.
 ```cpp
 bool result = (condition1 && condition2);
 ```
 
-OR (`||`):
+- OR (`||`):
 Returns true if at least one of the operands is true.
 ```cpp
 bool result = (condition1 || condition2);
 ```
 
-NOT (`!`):
+- NOT (`!`):
 Returns the opposite boolean value of its operand (true becomes false, and false becomes true).
 ```cpp
 bool result = !condition;
 ```
 
-Example:
-
+### Example:
 AND Operator Example:
 ```cpp
 #include <iostream>
@@ -82,11 +81,34 @@ int main() {
 }
 ```
 
-AND (`&&`): Combines two conditions and returns true only if both are true. Otherwise, it returns false.
+- AND (`&&`): Combines two conditions and returns true only if both are true. Otherwise, it returns false.
+- OR (`||`): Combines two conditions and returns true if at least one of them is true. If both are false, it returns false.
+- NOT (`!`): Inverts the boolean value of a condition. If the condition is true, ! makes it false, and vice versa.
 
-OR (`||`): Combines two conditions and returns true if at least one of them is true. If both are false, it returns false.
 
-NOT (`!`): Inverts the boolean value of a condition. If the condition is true, ! makes it false, and vice versa.
+
+## Short-Circuit Evaluation
+Short-circuit evaluation is a feature in many programming languages where the second operand in a logical operation is evaluated only if the first operand is not sufficient to determine the result of the operation. This mechanism is commonly used with the logical operators && (AND) and || (OR).
+
+Here's an example where short-circuit evaluation can prevent potential runtime errors, such as division by zero:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 0;
+    int y = 10;
+
+    if (x != 0 && (y / x) > 2) {
+        cout << "This will not execute." << endl;
+    } else {
+        cout << "Short-circuit evaluation prevents division by zero." << endl;
+    }
+
+    return 0;
+}
+```
+- In this example, the division y / x is not executed because the first condition x != 0 is false. Thus, it prevents a potential division-by-zero error.
+Short-circuit evaluation is a powerful feature that can make your code more efficient and safer by avoiding unnecessary computations and potential errors.
 
 Boolean operators are essential for making complex logical decisions in programming, enabling you to build more sophisticated conditions and control the flow of your program effectively.
-

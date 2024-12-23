@@ -92,3 +92,69 @@ int main() {
     - `>` (greater than) and < (less than): Compare numerical values.
 
 This structure demonstrates how to use nested decisions with various logical and comparison operators.
+
+---
+
+## Nested Decision Making in a While Loop for Age and Permission Verification in C++
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    char permission;
+    char membership;
+    char continueInput;
+
+    // Initial user input decision to enter loop
+    cout << "Do you want to enter your information? (y/n): ";
+    cin >> continueInput;
+
+    // Check if user wants to continue
+    while (continueInput == 'y' || continueInput == 'Y') {
+        // Get user input for age
+        cout << "Enter your age: ";
+        cin >> age;
+
+        // Check for valid age input
+        if (age <= 0) {
+            cout << "Invalid age input. Please enter a positive number." << endl;
+            continue;  // Repeat the loop if input is invalid
+        }
+
+        // Get user input for permission
+        cout << "Do you have permission? (y/n): ";
+        cin >> permission;
+
+        // Get user input for membership
+        cout << "Do you have a membership? (y/n): ";
+        cin >> membership;
+
+        // Outer condition: Check if age is greater than or equal to 18
+        if (age >= 18) {
+            // Nested condition with logical operators
+            if ((permission == 'y' || permission == 'Y') && (membership == 'y' || membership == 'Y')) {
+                cout << "You are allowed to enter the event." << endl;
+            } else if ((permission == 'y' || permission == 'Y') && !(membership == 'y' || membership == 'Y')) {
+                cout << "You need a membership to enter the event." << endl;
+            } else {
+                cout << "You need permission to enter the event." << endl;
+            }
+        } else {
+            // Using != operator and less than
+            if (age != 0 && age < 18) {
+                cout << "You are not old enough to enter the event." << endl;
+            } else {
+                cout << "Invalid age input." << endl;
+            }
+        }
+
+        // Ask user if they want to continue for the next loop iteration
+        cout << "Do you want to continue entering information? (y/n): ";
+        cin >> continueInput;
+    }
+
+    cout << "Goodbye!" << endl;
+    return 0;
+}
+```

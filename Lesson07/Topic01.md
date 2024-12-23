@@ -12,6 +12,7 @@ if (condition) {
     // Code to execute if condition is true
 }
 ```
+
 - If-Else Statement:
   - Executes one block of code if a condition is true and another block if the condition is false.
 ```cpp
@@ -33,6 +34,7 @@ if (condition1) {
     // Code to execute if none of the conditions are true
 }
 ```
+
 - Switch Statement:
   - Evaluates an expression and executes the corresponding case block. It's typically used when you have multiple possible values for a single variable.
 ```cpp

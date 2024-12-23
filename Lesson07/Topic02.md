@@ -81,19 +81,20 @@ int main() {
 ```
 
 1. Variable Declaration and Initialization:
+    - Declares an integer variable day and initializes it with the value 3.
 ```cpp
 int day = 3;
 ```
-- Declares an integer variable day and initializes it with the value 3.
+
 
 2. Switch Statement:
-
+    - Starts the switch statement, which will evaluate the value of the variable day.
 ```cpp
 switch (day) {
 ```
-- Starts the switch statement, which will evaluate the value of the variable day.
 
 3. Case Statements:
+    - Each case statement checks if day matches a constant value. If a match is found, the corresponding code block is executed. The `break` statement exits the switch after executing the matched case's block to prevent "fall-through" to subsequent cases.
 ```cpp
 case 1:
     cout << "Monday" << endl;
@@ -106,13 +107,12 @@ case 3:
     break;
 // Additional cases for other days
 ```
-- Each case statement checks if day matches a constant value. If a match is found, the corresponding code block is executed. The `break` statement exits the switch after executing the matched case's block to prevent "fall-through" to subsequent cases.
 
 4. Default Case:
+    - If no matching case is found, the `default` case is executed. It's an optional part of the switch statement that handles unexpected values.
 ```cpp
 default:
     cout << "Invalid day" << endl;
 ```
-- If no matching case is found, the `default` case is executed. It's an optional part of the switch statement that handles unexpected values.
 
 This approach can make the code more readable and manageable, especially when dealing with multiple discrete values.

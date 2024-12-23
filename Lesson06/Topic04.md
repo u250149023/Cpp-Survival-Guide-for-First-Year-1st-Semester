@@ -258,6 +258,65 @@ Enter the elements of the array:
 9 10 11 12
 The sum of all elements in the array is: 78
 ```
+## User-Interactive Array Input and Update Program in C++
+```cpp
+#include <iostream>
+using namespace std;
 
+int main() {
+    int size;
 
+    cout << "Enter the size of array: ";
+    cin >> size;
+
+    int arr[size];
+
+    cout << "Enter " << size << " element for the array: " << endl;
+    for (int i = 0; i < size; i++ ) {
+        cout << "Index [" << i << "] : ";
+        cin >> arr[i];
+    } cout << "arr[" << size << "] = {";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i];
+        if (i < size - 1) {
+            cout << ", ";
+        }
+    } cout << "}";
+    cout << endl;
+
+char choice;
+do {
+    int index, update;
+    cout << "Do you want to update element u inputed? (y/n): "; 
+    cin >> choice;
+
+    if (choice == 'y' || choice == 'Y') {
+    cout << "Enter the index[] you want to update: ";
+    cin >> index;
+
+    if (index >= 0 && index < size) {
+        cout << "Enter the updated of index: ";
+        cin >> update;
+        arr[index] = update;
+        cout << "update.COMPLETE!!.. arr[" << index << "]=" << update << endl;
+    } else {
+        cout << "Invalid!!..";
+    }
+
+    } else {
+        cout << endl;
+    }
+
+} while (choice == 'y' || choice == 'Y') ;
+
+cout << "FINAL. arr[" << size << "] = {";
+for(int i = 0; i < size; i++) {
+    cout << arr[i];
+    if (i < size - 1) {
+        cout << ", ";
+    } 
+} cout << "}";
+
+}
+```
 

@@ -83,7 +83,9 @@ int main() {
 ```
 
 AND (`&&`): Combines two conditions and returns true only if both are true. Otherwise, it returns false.
+
 OR (`||`): Combines two conditions and returns true if at least one of them is true. If both are false, it returns false.
+
 NOT (`!`): Inverts the boolean value of a condition. If the condition is true, ! makes it false, and vice versa.
 
 Boolean operators are essential for making complex logical decisions in programming, enabling you to build more sophisticated conditions and control the flow of your program effectively.

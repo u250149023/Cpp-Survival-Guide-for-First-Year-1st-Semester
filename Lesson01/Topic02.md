@@ -53,7 +53,7 @@ In the above code, `std::fixed` and `std::setprecision(2)` are manipulators used
 // This code is licensed under a Custom Proprietary License.
 // Viewing is permitted. Copying, modifying, or distributing
 // without explicit permission is prohibited.
-// For permissions, contact [Your Contact Information].
+// For permissions, contact [@lauriojohnangelo@gmail.com].
 ```
 
 [NextTopic>>](./Topic03.md)

@@ -227,4 +227,4 @@ Boolean operators are essential for making complex logical decisions in programm
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
 
-[NextTopic>>](./Topic01.md)
+[NextTopic>>](./Topic02.md)

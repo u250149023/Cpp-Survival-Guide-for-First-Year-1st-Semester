@@ -107,3 +107,5 @@ The output will be: "Substring 'World' found at index 7".
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+
+[NextTopic>>](./Topic03.md)

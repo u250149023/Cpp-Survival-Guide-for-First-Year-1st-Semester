@@ -116,3 +116,10 @@ default:
 ```
 
 This approach can make the code more readable and manageable, especially when dealing with multiple discrete values.
+
+```cpp
+// This Topic is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [lauriojohnangelo@gmail.com].
+```

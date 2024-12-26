@@ -107,4 +107,4 @@ This approach highlights how the continue statement can be used to control the f
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
-[HOME.>>](./README.md)
+[HOME.>>](/README.md)

@@ -109,3 +109,10 @@ int main() {
     - The middle loop iterates through the rows of each layer.
     - The inner loop iterates through the columns of each row.
     - Prints each element, row by row, and layer by layer.
+
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```

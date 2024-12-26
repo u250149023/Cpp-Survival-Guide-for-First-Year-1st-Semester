@@ -29,10 +29,10 @@
 In the above code, each `std::cout` statement demonstrates the usage of a different escape sequence. The output will display the corresponding special characters and their effects.
 
 ```cpp
-// This code is licensed under a Custom Proprietary License.
+// This Topic is licensed under a Custom Proprietary License.
 // Viewing is permitted. Copying, modifying, or distributing
 // without explicit permission is prohibited.
-// For permissions, contact [@lauriojohnangelo@gmail.com].
+// For permissions, contact [lauriojohnangelo@gmail.com].
 ```
 
 [NextTopic>>](./Topic04.md)

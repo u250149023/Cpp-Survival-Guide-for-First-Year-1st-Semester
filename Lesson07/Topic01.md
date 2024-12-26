@@ -220,3 +220,9 @@ Short-circuit evaluation is a powerful feature that can make your code more effi
 
 Boolean operators are essential for making complex logical decisions in programming, enabling you to build more sophisticated conditions and control the flow of your program effectively.
 
+```cpp
+// This Topic is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [lauriojohnangelo@gmail.com].
+```

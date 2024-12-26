@@ -116,3 +116,5 @@ int main() {
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+
+[NextTopic>>](./Topic04.md)

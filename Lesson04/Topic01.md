@@ -55,6 +55,13 @@ int main() {
 ```
 In this example, we start with the character `'A'` and explicitly cast it to an int, resulting in the ASCII value `65`. Then, we perform the reverse operation by explicitly casting an integer `98` back to a `char`, which corresponds to the character `'b'`.
 
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```
+
 [Lesson05>>](/Lesson05/Topic01.md)
 
 

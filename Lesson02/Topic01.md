@@ -43,10 +43,10 @@ Operator precedence determines the order in which operators are evaluated in an 
 To avoid confusion and ensure the correct evaluation of expressions, you can use parentheses to explicitly specify the desired order of operations.
 
 ```cpp
-// This code is licensed under a Custom Proprietary License.
+// This Topic is licensed under a Custom Proprietary License.
 // Viewing is permitted. Copying, modifying, or distributing
 // without explicit permission is prohibited.
-// For permissions, contact [@lauriojohnangelo@gmail.com].
+// For permissions, contact [lauriojohnangelo@gmail.com].
 ```
 
 [NextTopic>>](./Topic02.md)

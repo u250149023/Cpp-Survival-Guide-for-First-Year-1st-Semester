@@ -165,3 +165,5 @@ int main() {
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+
+[Lesson08>>](/Lesson08/Topic01.md)

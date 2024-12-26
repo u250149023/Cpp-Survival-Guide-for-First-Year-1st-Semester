@@ -30,4 +30,11 @@ int main() {
 ```
 In the provided code, various assignment operators are used to change the value of `num1` based on `num2`, and then the updated values are displayed.
 
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```
+
 [NextTopic>>](./Topic03.md)

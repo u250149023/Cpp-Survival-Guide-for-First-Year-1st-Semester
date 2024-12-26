@@ -74,6 +74,13 @@
 28	}
 ```
 
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```
+
 [Lesson03>>](/Lesson03/Topic01.md)
 
 

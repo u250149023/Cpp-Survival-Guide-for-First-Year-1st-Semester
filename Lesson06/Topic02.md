@@ -39,3 +39,10 @@ int main() {
    - `cout << endl;`: Moves to the next line after printing all elements.
 
    This code demonstrates how to declare, initialize, access, modify, and loop through a one-dimensional array in C++
+
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```

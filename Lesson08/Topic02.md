@@ -95,3 +95,11 @@ int main() {
 - New Line: After each row is printed, cout << endl; moves to the next line.
 
 This approach creates a multiplication table of size n x n, demonstrating the power of nested loops in handling multi-level iterative tasks.
+
+
+```cpp
+// This Topic is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [lauriojohnangelo@gmail.com].
+```

@@ -71,3 +71,10 @@ int arr[5] = {1, 2, 3, 4, 5};
 for (int i = 0; i < 5; ++i) { // Correct loop bounds
     cout << arr[i]
 ```
+
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```

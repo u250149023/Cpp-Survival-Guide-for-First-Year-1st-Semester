@@ -36,9 +36,9 @@ Contributions to this repository are welcome. By contributing, you agree to the 
 This repository may include references to third-party libraries, tools, or content. Such references are provided for convenience and educational purposes only. The inclusion of third-party content does not imply endorsement or affiliation. Users are encouraged to review the licenses and terms of use for any third-party content included.
 
 ## Usage Guidelines
-  - Respect the License: Do not copy, modify, or distribute the contents of this repository without explicit permission.
-  - Attribution: If you use or refer to any part of this repository in your work, please provide proper attribution.
-  - Privacy and Data Protection: Do not include any sensitive or personal data in your contributions.
+  - **Respect the License**: Do not copy, modify, or distribute the contents of this repository without explicit permission.
+  - **Attribution**: If you use or refer to any part of this repository in your work, please provide proper attribution.
+  - **Privacy and Data Protection**: Do not include any sensitive or personal data in your contributions.
 
 ## Reporting Issues
 If you notice any issues or have concerns about the content in this repository, please contact [ lauriojohnangelo@gmail.com ] to report the problem. We take copyright and other legal issues seriously and will address them promptly.

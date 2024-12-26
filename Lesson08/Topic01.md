@@ -111,3 +111,10 @@ int main() {
 
 The while loop calculates the factorial of a given number.
 The do-while loop ensures the user enters a positive number by repeating the prompt until a valid input is provided.
+
+```cpp
+// This Topic is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [lauriojohnangelo@gmail.com].
+```

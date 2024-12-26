@@ -100,7 +100,7 @@ In **C++**, header files are used to declare functions and classes. The standard
 // This code is licensed under a Custom Proprietary License.
 // Viewing is permitted. Copying, modifying, or distributing
 // without explicit permission is prohibited.
-// For permissions, contact [Your Contact Information].
+// For permissions, contact [@lauriojohnangelo@gmail.com].
 ```
   
   [NextTopic>>](./Topic02.md)

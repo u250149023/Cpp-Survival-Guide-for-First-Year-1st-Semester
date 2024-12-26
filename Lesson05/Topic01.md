@@ -150,3 +150,4 @@ int main() {
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
 
+[NextTopic>>](./Topic02.md)

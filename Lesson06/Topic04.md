@@ -326,3 +326,5 @@ for(int i = 0; i < size; i++) {
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+
+[Lesson07>>](/Lesson07/Topic01.md)

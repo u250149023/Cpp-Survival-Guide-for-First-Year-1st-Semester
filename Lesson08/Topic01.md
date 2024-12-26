@@ -2,21 +2,21 @@
 An iterative structure, or loop, is a fundamental programming concept that enables the repeated execution of a set of instructions based on a specified condition. Loops are crucial for efficiently handling tasks that involve repetitive processing, such as iterating through items in a collection, performing repetitive calculations, or building complex algorithms.
 
 1. While Loop:
-- Executes a block of code as long as a specified condition is true.
+    - Executes a block of code as long as a specified condition is true.
 ```cpp
 while (condition) {
     // Code to be executed
 }
 ```
 2. For Loop:
-- Executes a block of code a specific number of times.
+    - Executes a block of code a specific number of times.
 ```cpp
 for (initialization; condition; increment) {
     // Code to be executed
 }
 ```
 3. Do-While Loop:
-- Similar to a while loop, but the condition is checked after the code block is executed, ensuring that the code is executed at least once.
+    - Similar to a while loop, but the condition is checked after the code block is executed, ensuring that the code is executed at least once.
 ```cpp
 do {
     // Code to be executed

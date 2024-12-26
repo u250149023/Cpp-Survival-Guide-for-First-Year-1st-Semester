@@ -19,10 +19,10 @@ Whether you're writing your first "Hello, World!" program or exploring more comp
 - [Lesson 02: Operators](./Lesson02/Topic01.md) : Understand the different operators and their uses.
 - [Lesson 03: Strings](./Lesson03/Topic01.md) : Handle and manipulate text data.
 - [Lesson 04: Typecasting](./Lesson04/Topic01.md) : Convert data types for various operations.
-- [Lesson 05: Built-in Libraries]() : Use the power of standard libraries.
-- [Lesson 06: Arrays]() : Manage collections of data efficiently.
-- [Lesson 07: Selection Structures]() : Control the flow of your program with conditions.
-- [Lesson 08: Iterative Structures]() : Use loops to repeat operations effectively.
+- [Lesson 05: Built-in Libraries](./Lesson05/Topic01.md) : Use the power of standard libraries.
+- [Lesson 06: Arrays](./Lesson06/Topic01.md) : Manage collections of data efficiently.
+- [Lesson 07: Selection Structures](./Lesson07/Topic01.md) : Control the flow of your program with conditions.
+- [Lesson 08: Iterative Structures](./Lesson08/Topic01.md) : Use loops to repeat operations effectively.
 
 This guide is crafted to be a quick reference for your C++ programming journey, ensuring that you have all the essential information at your fingertips. Happy coding, and welcome to the world of **C++**!
 

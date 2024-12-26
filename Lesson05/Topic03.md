@@ -50,17 +50,14 @@ int main() {
 
 	std::cout << "Sine of " << angle << " is " << sin_result << std::endl;
 	std::cout << "Cosine of " << angle << " is " << cos_result << std::endl;
-
-```cpp
-// This code is licensed under a Custom Proprietary License.
-// Viewing is permitted. Copying, modifying, or distributing
-// without explicit permission is prohibited.
-// For permissions, contact [@lauriojohnangelo@gmail.com].
-```
-
 	return 0;
 }
 ```
 The output will be: "Sine of 0.50 is 0.48" "Cosine of 0.50 is 0.88".
 
-
+```cpp
+// This Topic is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [lauriojohnangelo@gmail.com].
+```

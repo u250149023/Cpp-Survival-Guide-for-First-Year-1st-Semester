@@ -85,5 +85,12 @@ String copying involves copying the contents of one string to another. In C++, y
 ```
 The output will be: "Hello".
 
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```
+
 [Lesson04>>](/Lesson04/Topic01.md)
 

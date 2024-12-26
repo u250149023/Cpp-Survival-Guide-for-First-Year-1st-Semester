@@ -123,3 +123,5 @@ This approach can make the code more readable and manageable, especially when de
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+
+[NextTopic>>](./Topic03.md)

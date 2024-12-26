@@ -61,3 +61,5 @@ The output will be: "Sine of 0.50 is 0.48" "Cosine of 0.50 is 0.88".
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+
+[Lesson06>>](/Lesson06/Topic01.md)

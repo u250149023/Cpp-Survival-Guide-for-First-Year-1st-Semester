@@ -57,3 +57,57 @@ int main() {
 - The do-while loop executes at least once and continues as long as num is less than 5.
 
 Iterative structures are powerful tools in programming, enabling you to perform repetitive tasks efficiently and effectively.
+
+---
+
+## While Loop
+A while loop is a control flow statement that allows code to be executed repeatedly based on a given boolean condition. The while loop continues to execute as long as the condition remains true. If the condition evaluates to false, the loop terminates and the control passes to the next statement after the loop.
+
+``` cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number to calculate its factorial: ";
+    cin >> n;
+
+    int factorial = 1;
+    int i = n;
+
+    while (i > 1) {
+        factorial *= i; // Multiply current factorial by i
+        i--;            // Decrement i
+    }
+
+    cout << "The factorial of " << n << " is " << factorial << endl;
+    return 0;
+}
+```
+
+## Do-While Loop
+A do-while loop is similar to a while loop, except that the condition is evaluated after the execution of the loop's body. This means that the code inside the do-while loop will always execute at least once, regardless of whether the condition is true or false.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+
+    do {
+        cout << "Enter a positive number: ";
+        cin >> num;
+
+        if (num <= 0) {
+            cout << "Invalid input. Please try again." << endl;
+        }
+    } while (num <= 0);
+
+    cout << "You entered a positive number: " << num << endl;
+    return 0;
+}
+```
+
+The while loop calculates the factorial of a given number.
+The do-while loop ensures the user enters a positive number by repeating the prompt until a valid input is provided.

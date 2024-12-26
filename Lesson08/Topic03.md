@@ -100,3 +100,10 @@ User Input: The program continuously reads numbers entered by the user.
 - Summation: If the number is positive, it is added to the running total sum.
 
 This approach highlights how the continue statement can be used to control the flow of a loop by selectively skipping certain iterations based on conditions.
+
+```cpp
+// This Topic is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [lauriojohnangelo@gmail.com].
+```

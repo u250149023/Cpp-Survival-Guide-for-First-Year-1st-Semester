@@ -118,3 +118,5 @@ The do-while loop ensures the user enters a positive number by repeating the pro
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+
+[NextTopic>>](./Topic02.md)

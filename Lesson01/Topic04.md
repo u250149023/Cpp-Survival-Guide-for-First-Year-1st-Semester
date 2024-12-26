@@ -70,10 +70,10 @@ int main() {
 In the above code, various data types are used, and `cin` is used to accept input for each of them using the appropriate extraction `>>` operator.
 
 ```cpp
-// This code is licensed under a Custom Proprietary License.
+// This Topic is licensed under a Custom Proprietary License.
 // Viewing is permitted. Copying, modifying, or distributing
 // without explicit permission is prohibited.
-// For permissions, contact [@lauriojohnangelo@gmail.com].
+// For permissions, contact [lauriojohnangelo@gmail.com].
 ```
 
 [Lesson02>>](/Lesson02/Topic01.md)

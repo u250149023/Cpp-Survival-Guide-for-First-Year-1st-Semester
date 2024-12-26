@@ -43,4 +43,8 @@ This repository may include references to third-party libraries, tools, or conte
 ## Reporting Issues
 If you notice any issues or have concerns about the content in this repository, please contact [ lauriojohnangelo@gmail.com ] to report the problem. We take copyright and other legal issues seriously and will address them promptly.
 
+References
+1. "C++ Programming Language", cplusplus.com.Available at: cplusplus.com
+2. "C++ Standard Library Reference", cplusplus.com.Available at: cplusplus.com/reference
+3. Microsoft Copilot - An AI assistant provided by Microsoft, designed to offer helpful information and assist with programming tasks. More information available at: Microsoft
 

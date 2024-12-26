@@ -50,10 +50,10 @@ int main() {
 In the above code, `std::fixed` and `std::setprecision(2)` are manipulators used to specify the number of decimal places for the `num2` variable. The output will display the values of the variables in the specified format.
 
 ```cpp
-// This code is licensed under a Custom Proprietary License.
+// This Topic is licensed under a Custom Proprietary License.
 // Viewing is permitted. Copying, modifying, or distributing
 // without explicit permission is prohibited.
-// For permissions, contact [@lauriojohnangelo@gmail.com].
+// For permissions, contact [lauriojohnangelo@gmail.com].
 ```
 
 [NextTopic>>](./Topic03.md)

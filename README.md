@@ -26,4 +26,21 @@ Whether you're writing your first "Hello, World!" program or exploring more comp
 
 This guide is crafted to be a quick reference for your C++ programming journey, ensuring that you have all the essential information at your fingertips. Happy coding, and welcome to the world of **C++**!
 
+## Disclaimer
+The information and code provided in this repository are for educational purposes only. While every effort has been made to ensure accuracy and completeness, the author cannot be held responsible for any errors, omissions, or consequences arising from the use of this material. Users are encouraged to seek professional advice when needed.
+
+## Contributions
+Contributions to this repository are welcome. By contributing, you agree to the terms of the Custom Proprietary License and certify that your contributions are your own work and that you have the right to share them. Contributions should be original and should not infringe on any copyrights, trademarks, or other proprietary rights.
+
+## Third-Party Content
+This repository may include references to third-party libraries, tools, or content. Such references are provided for convenience and educational purposes only. The inclusion of third-party content does not imply endorsement or affiliation. Users are encouraged to review the licenses and terms of use for any third-party content included.
+
+## Usage Guidelines
+  - Respect the License: Do not copy, modify, or distribute the contents of this repository without explicit permission.
+  - Attribution: If you use or refer to any part of this repository in your work, please provide proper attribution.
+  - Privacy and Data Protection: Do not include any sensitive or personal data in your contributions.
+
+## Reporting Issues
+If you notice any issues or have concerns about the content in this repository, please contact [ lauriojohnangelo@gmail.com ] to report the problem. We take copyright and other legal issues seriously and will address them promptly.
+
 

@@ -97,10 +97,10 @@ In **C++**, header files are used to declare functions and classes. The standard
 - **Other Keywords**: `return`, `const`, `static`, `extern`, `register`, `sizeof`, `typedef`, `namespace`, `using`
 
 ```cpp
-// This code is licensed under a Custom Proprietary License.
+// This Topic is licensed under a Custom Proprietary License.
 // Viewing is permitted. Copying, modifying, or distributing
 // without explicit permission is prohibited.
-// For permissions, contact [@lauriojohnangelo@gmail.com].
+// For permissions, contact [lauriojohnangelo@gmail.com].
 ```
   
   [NextTopic>>](./Topic02.md)

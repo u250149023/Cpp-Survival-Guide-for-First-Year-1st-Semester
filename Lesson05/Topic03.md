@@ -51,6 +51,13 @@ int main() {
 	std::cout << "Sine of " << angle << " is " << sin_result << std::endl;
 	std::cout << "Cosine of " << angle << " is " << cos_result << std::endl;
 
+```cpp
+// This code is licensed under a Custom Proprietary License.
+// Viewing is permitted. Copying, modifying, or distributing
+// without explicit permission is prohibited.
+// For permissions, contact [@lauriojohnangelo@gmail.com].
+```
+
 	return 0;
 }
 ```

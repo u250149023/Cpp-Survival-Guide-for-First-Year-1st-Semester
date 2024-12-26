@@ -78,3 +78,4 @@ for (int i = 0; i < 5; ++i) { // Correct loop bounds
 // without explicit permission is prohibited.
 // For permissions, contact [lauriojohnangelo@gmail.com].
 ```
+[NextTopic>>](./Topic02.md)

@@ -2,9 +2,8 @@
 The C++ Standard Library provides several predefined character functions for handling and manipulating individual characters. These functions are available in the `<cctype>` header and are commonly used for tasks such as checking character types and converting character cases.
 
 ## Common Predefined Character Functions
-isalnum:
+**isalnum**:
 - Checks if the character is alphanumeric (a letter or a digit).
-
 ```cpp
 #include <iostream>
 #include <cctype>
@@ -21,9 +20,8 @@ int main() {
 }
 ```
 
-isalpha:
+**isalpha**:
 - Checks if the character is a letter.
-
 ```cpp
 char ch = 'A';
 if (isalpha(ch)) {
@@ -31,18 +29,17 @@ if (isalpha(ch)) {
 }
 ```
 
-isdigit:
+**isdigit**:
 - Checks if the character is a digit.
-
 ```cpp
 char ch = '5';
 if (isdigit(ch)) {
     cout << ch << " is a digit." << endl;
 }
 ```
-islower:
-- Checks if the character is a lowercase letter.
 
+**islower**:
+- Checks if the character is a lowercase letter.
 ```cpp
 char ch = 'a';
 if (islower(ch)) {
@@ -50,9 +47,8 @@ if (islower(ch)) {
 }
 ```
 
-isupper:
+**isupper**:
 - Checks if the character is an uppercase letter.
-
 ```cpp
 char ch = 'A';
 if (isupper(ch)) {
@@ -60,9 +56,8 @@ if (isupper(ch)) {
 }
 ```
 
-isspace:
+**isspace**:
 - Checks if the character is a whitespace character (such as space, tab, or newline).
-
 ```cpp
 char ch = ' ';
 if (isspace(ch)) {
@@ -70,18 +65,16 @@ if (isspace(ch)) {
 }
 ```
 
-tolower:
+**tolower**:
 - Converts a character to lowercase.
-
 ```cpp
 char ch = 'A';
 char lower = tolower(ch);
 cout << ch << " in lowercase is " << lower << endl;  // Output: A in lowercase is a
 ```
 
-toupper:
+**toupper**:
 - Converts a character to uppercase.
-
 ```cpp
 char ch = 'a';
 char upper = toupper(ch);
@@ -90,7 +83,6 @@ cout << ch << " in uppercase is " << upper << endl;  // Output: a in uppercase i
 
 Example Program
 Here's an example program demonstrating the use of these predefined character functions:
-
 ```cpp
 #include <iostream>
 #include <cctype>
@@ -136,7 +128,7 @@ int main() {
 }
 ```
 
-Conclusion
+### Conclusion
 The `<cctype>` header in C++ provides a range of predefined character functions that make it easy to check character types and perform conversions. These functions are invaluable for text processing and validation tasks.
 
 ```cpp

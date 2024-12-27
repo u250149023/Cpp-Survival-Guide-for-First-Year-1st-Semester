@@ -15,14 +15,14 @@ Welcome to the **C++ Survival Guide for First-Year**! This Learning Materials is
 Whether you're writing your first "Hello, World!" program or exploring more complex concepts, this Learning Materials provides clear explanations and useful code snippets to help you understand and remember key topics.
 
 ## What You'll Find Inside:
-- [Lesson 01: Programming Fundamentals](./Lesson01/Topic01.md) : Learn the core basics to get started.
-- [Lesson 02: Operators](./Lesson02/Topic01.md) : Understand the different operators and their uses.
-- [Lesson 03: Strings](./Lesson03/Topic01.md) : Handle and manipulate text data.
-- [Lesson 04: Typecasting](./Lesson04/Topic01.md) : Convert data types for various operations.
-- [Lesson 05: Built-in Libraries](./Lesson05/Topic01.md) : Use the power of standard libraries.
-- [Lesson 06: Arrays](./Lesson06/Topic01.md) : Manage collections of data efficiently.
-- [Lesson 07: Selection Structures](./Lesson07/Topic01.md) : Control the flow of your program with conditions.
-- [Lesson 08: Iterative Structures](./Lesson08/Topic01.md) : Use loops to repeat operations effectively.
+- [Lesson 01: Learn the core basics to get started.](./Lesson01/Topic01.md)
+- [Lesson 02: Understand the different operators and their uses.](./Lesson02/Topic01.md)
+- [Lesson 03: Handle and manipulate text data.](./Lesson03/Topic01.md)
+- [Lesson 04: Convert data types for various operations.](./Lesson04/Topic01.md)
+- [Lesson 05:Use the power of standard libraries.](./Lesson05/Topic01.md)
+- [Lesson 06: Manage collections of data efficiently.](./Lesson06/Topic01.md)
+- [Lesson 07: Control the flow of your program with conditions.](./Lesson07/Topic01.md)
+- [Lesson 08: Use loops to repeat operations effectively.](./Lesson08/Topic01.md)
 
 This guide is crafted to be a quick reference for your C++ programming journey, ensuring that you have all the essential information at your fingertips. Happy coding, and welcome to the world of **C++**!
 

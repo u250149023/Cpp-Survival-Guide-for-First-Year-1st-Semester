@@ -52,7 +52,7 @@ int main() {
 }
 ```
 
-### Combining Inputs
+## Combining Inputs
 When combining different types of inputs using getline, you need to handle each input separately and perform any necessary conversions.
 
 Example:
@@ -76,6 +76,13 @@ int main() {
     return 0;
 }
 ```
+### Advantages of Using getline
+- **Handles Spaces**: `getline` can read entire lines, making it ideal for inputs that include spaces.
+- **Consistent Input Handling**: Using `getline` consistently can simplify input handling logic, especially when processing mixed input types.
+
+### Considerations
+- **Manual Conversion**: When using `getline` for non-string inputs, you'll need to manually convert the string input to the desired data type (e.g., using `stoi` for integers).
+- **Error Handling**: It's important to add error handling to manage invalid inputs, such as non-numeric strings when expecting an integer.
 
 ```cpp
 // This Topic is licensed under a Custom Proprietary License.

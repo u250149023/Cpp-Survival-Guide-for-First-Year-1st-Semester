@@ -13,13 +13,13 @@ C++ is a robust and versatile programming language designed to bridge the gap be
 ## Basic Structure of a C++ Program
 The basic structure of a C++ program consists of several key components that form the foundation of any C++ application. Understanding these components is essential for writing functional and well-organized code.
 
-The basic structure of a C++ program refers to the essential elements and the layout of the code, which includes:
-    - **Preprocessor Directives**: Commands that instruct the compiler to process certain files before compiling the program, such as including libraries.
-    - **Namespace Declaration**: Used to avoid naming conflicts by grouping entities under a common name.
-    - **Main Function**: The entry point of every C++ program, where execution starts.
-    - **Variable Declarations**: Defining variables that will be used in the program.
-    - **Statements and Expressions**: The logic and behavior of the program contained within the main function.
-    - **Return Statement**: Indicates the end of the main function and returns a value to the operating system.
+- **Preprocessor Directives**: Commands that instruct the compiler to process certain files before compiling the program, such as including libraries.
+- **Namespace Declaration**: Used to avoid naming conflicts by grouping entities under a common name.
+- **Main Function**: The entry point of every C++ program, where execution starts.
+- **Variable Declarations**: Defining variables that will be used in the program.
+- **Statements and Expressions**: The logic and behavior of the program contained within the main function.
+- **Return Statement**: Indicates the end of the main function and returns a value to the operating system.
+
 ```cpp
 #include <iostream>  // Include necessary library
 

@@ -16,6 +16,8 @@ int main() {
 }
 ```
 
+---
+
 `substr(start, length)`:
 - Returns a substring starting from the specified position with the specified length.
 ```cpp
@@ -23,6 +25,8 @@ string str = "Hello, World!";
 string sub = str.substr(7, 5);  // Extracts "World"
 cout << "Substring: " << sub << endl;  // Output: World
 ```
+
+---
 
 `find(str)`:
 - Searches for the specified substring and returns the position of the first occurrence.
@@ -34,6 +38,8 @@ if (pos != string::npos) {
 }
 ```
 
+---
+
 `replace(start, length, str)`:
 - Replaces a portion of the string starting from the specified position with the specified length with another string.
 ```cpp
@@ -41,6 +47,8 @@ string str = "Hello, World!";
 str.replace(7, 5, "C++");
 cout << "After replace: " << str << endl;  // Output: Hello, C++!
 ```
+
+---
 
 `erase(start, length)`:
 - Removes a portion of the string starting from the specified position with the specified length.
@@ -50,6 +58,8 @@ str.erase(5, 7);
 cout << "After erase: " << str << endl;  // Output: Hello
 ```
 
+---
+
 `append(str)`:
 - Appends the specified string to the end of the current string.
 ```cpp
@@ -57,6 +67,8 @@ string str = "Hello";
 str.append(", World!");
 cout << "After append: " << str << endl;  // Output: Hello, World!
 ```
+
+---
 
 `compare(str)`:
 - Compares the current string with the specified string lexicographically. Returns 0 if equal, a negative value if less, and a positive value if greater.
@@ -74,6 +86,8 @@ if (result == 0) {
 }
 ```
 
+---
+
 `c_str()`:
 - Returns a pointer to a null-terminated C-style string.
 ```cpp
@@ -81,6 +95,8 @@ string str = "Hello";
 const char* cstr = str.c_str();
 cout << "C-style string: " << cstr << endl;  // Output: Hello
 ```
+
+---
 
 Here's a comprehensive example demonstrating various string functions:
 ```cpp

@@ -1,15 +1,14 @@
 # Overview of C++
-C++ is a robust and versatile programming language designed to bridge the gap between high-level and low-level programming. Developed by **Bjarne Stroustrup** in the early 1980s, it extends the C language with object-oriented features, enabling efficient and modular code development. 
+C++ is a robust and versatile programming language designed to bridge the gap between high-level and low-level programming. Developed by **Bjarne Stroustrup** in the early 1980s, it extends the C language with object-oriented features, enabling efficient and modular code development. Here are the key highlights:
 
-Here are the key highlights:
-    - **Object-Oriented Programming**: C++ incorporates classes, inheritance, polymorphism, and encapsulation, which promote code reuse and simplify complex software projects.
-    - **Standard Template Library (STL)**: The STL provides a rich set of template classes and functions for data structures and algorithms, making it easy to implement common tasks without reinventing the wheel.
-    - **Memory Management**: With pointers and dynamic memory allocation, C++ offers fine-grained control over memory, though it requires careful handling to avoid errors.
-    - **Performance**: Known for its efficiency, C++ is ideal for applications demanding real-time processing, such as games and operating systems.
-    - **Compatibility with C**: It maintains compatibility with C, allowing seamless integration of existing C code and libraries.
-    - **Templates and Generics**: Templates enable the creation of functions and classes that work with any data type, enhancing code flexibility and reuse.
-    - **Exception Handling**: C++ supports structured error handling, making programs more robust and easier to debug.
-    - **Rich Library Ecosystem**: Beyond the STL, C++ has extensive libraries for networking, threading, graphics, and more, catering to diverse application needs.
+- **Object-Oriented Programming**: C++ incorporates classes, inheritance, polymorphism, and encapsulation, which promote code reuse     and simplify complex software projects.
+- **Standard Template Library (STL)**: The STL provides a rich set of template classes and functions for data structures and algorithms, making it easy to implement common tasks without reinventing the wheel.
+- **Memory Management**: With pointers and dynamic memory allocation, C++ offers fine-grained control over memory, though it requires careful handling to avoid errors.
+- **Performance**: Known for its efficiency, C++ is ideal for applications demanding real-time processing, such as games and operating systems.
+- **Compatibility with C**: It maintains compatibility with C, allowing seamless integration of existing C code and libraries.
+- **Templates and Generics**: Templates enable the creation of functions and classes that work with any data type, enhancing code flexibility and reuse.
+- **Exception Handling**: C++ supports structured error handling, making programs more robust and easier to debug.
+- **Rich Library Ecosystem**: Beyond the STL, C++ has extensive libraries for networking, threading, graphics, and more, catering to diverse application needs.
 
 ## Basic Structure of a C++ Program
 The basic structure of a C++ program consists of several key components that form the foundation of any C++ application. Understanding these components is essential for writing functional and well-organized code.

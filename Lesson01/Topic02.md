@@ -47,6 +47,8 @@ int main() {
     return 0;
 ```
 
+---
+
 ## Using \n for Newlines
 The `\n` character inserts a newline in the output, moving the cursor to the next line's start and helping to format text neatly. While `std::endl` is common, `\n` is more efficient when you don't need to flush the output buffer.
 ```cpp

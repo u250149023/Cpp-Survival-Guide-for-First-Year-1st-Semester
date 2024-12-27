@@ -16,19 +16,19 @@ using namespace std;
 ```
 
 `cout:`
-`cout` is the standard output stream in C++. It is used along with the insertion operator `<<` to send data to the output stream (usually the console).
+- `cout` is the standard output stream in C++. It is used along with the insertion operator `<<` to send data to the output stream (usually the console).
 ```cpp
 cout << "Hello, World!" << endl;
 ```
 
 Insertion Operator (`<<`):
-The `<<` operator is used to insert data into the cout stream. Multiple insertions can be chained together.
+- The `<<` operator is used to insert data into the cout stream. Multiple insertions can be chained together.
 ```cpp
 cout << "The value of x is: " << x << endl;
 ```
 
 Endline (`endl`):
-The `endl` manipulator is used to insert a newline character and flush the output buffer.
+- The `endl` manipulator is used to insert a newline character and flush the output buffer.
 ```cpp
 cout << "This is the first line." << endl;
 cout << "This is the second line." << endl;

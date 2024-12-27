@@ -53,24 +53,24 @@ int main() {
 ```
 
 ### Combining Inputs
-You can combine reading different types of inputs within the same program.
+When combining different types of inputs using getline, you need to handle each input separately and perform any necessary conversions.
 
+Example:
 ```cpp
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-    string name;
+    string name, input;
     int age;
 
-    cout << "Enter your name: ";
-    cin >> name;  // Read a single word input for name
-
-    cin.ignore(); // Ignore any leftover newline character in the buffer
+    cout << "Enter your full name: ";
+    getline(cin, name);  // Read a full line input for the name
 
     cout << "Enter your age: ";
-    cin >> age;  // Read an integer value for age
+    getline(cin, input);  // Read the input as a string
+    age = stoi(input);  // Convert the string to an integer
 
     cout << "Hello, " << name << "! You are " << age << " years old." << endl;  // Output the entered values
     return 0;

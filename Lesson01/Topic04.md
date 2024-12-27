@@ -1,4 +1,4 @@
-# c
+# Input Operations
 Input operations in C++ allow programs to receive data from users or other sources. The `iostream` library provides tools for handling input and output (I/O) operations. The most commonly used input stream in C++ is `cin`, which stands for "character input".
 
 ## Input for Integers

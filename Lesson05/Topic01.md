@@ -20,6 +20,8 @@ int main() {
 }
 ```
 
+---
+
 **isalpha**:
 - Checks if the character is a letter.
 ```cpp
@@ -28,6 +30,8 @@ if (isalpha(ch)) {
     cout << ch << " is a letter." << endl;
 }
 ```
+
+---
 
 **isdigit**:
 - Checks if the character is a digit.
@@ -38,6 +42,8 @@ if (isdigit(ch)) {
 }
 ```
 
+---
+
 **islower**:
 - Checks if the character is a lowercase letter.
 ```cpp
@@ -46,6 +52,8 @@ if (islower(ch)) {
     cout << ch << " is a lowercase letter." << endl;
 }
 ```
+
+---
 
 **isupper**:
 - Checks if the character is an uppercase letter.
@@ -56,6 +64,8 @@ if (isupper(ch)) {
 }
 ```
 
+---
+
 **isspace**:
 - Checks if the character is a whitespace character (such as space, tab, or newline).
 ```cpp
@@ -65,6 +75,8 @@ if (isspace(ch)) {
 }
 ```
 
+---
+
 **tolower**:
 - Converts a character to lowercase.
 ```cpp
@@ -72,6 +84,8 @@ char ch = 'A';
 char lower = tolower(ch);
 cout << ch << " in lowercase is " << lower << endl;  // Output: A in lowercase is a
 ```
+
+---
 
 **toupper**:
 - Converts a character to uppercase.

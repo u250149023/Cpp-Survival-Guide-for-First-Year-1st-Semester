@@ -1,6 +1,7 @@
 # Overview of C++
-C++ is a robust and versatile programming language designed to bridge the gap between high-level and low-level programming. Developed by **Bjarne Stroustrup** in the early 1980s, it extends the C language with object-oriented features, enabling efficient and modular code development. Here are the key highlights:
+C++ is a robust and versatile programming language designed to bridge the gap between high-level and low-level programming. Developed by **Bjarne Stroustrup** in the early 1980s, it extends the C language with object-oriented features, enabling efficient and modular code development. 
 
+Here are the key highlights:
     - **Object-Oriented Programming**: C++ incorporates classes, inheritance, polymorphism, and encapsulation, which promote code reuse and simplify complex software projects.
     - **Standard Template Library (STL)**: The STL provides a rich set of template classes and functions for data structures and algorithms, making it easy to implement common tasks without reinventing the wheel.
     - **Memory Management**: With pointers and dynamic memory allocation, C++ offers fine-grained control over memory, though it requires careful handling to avoid errors.

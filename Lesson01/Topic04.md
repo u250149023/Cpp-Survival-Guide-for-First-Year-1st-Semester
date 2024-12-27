@@ -2,7 +2,7 @@
 Input operations in C++ allow programs to receive data from users or other sources. The `iostream` library provides tools for handling input and output (I/O) operations. The most commonly used input stream in C++ is `cin`, which stands for "character input".
 
 ## Input for Integers
-To read an integer from the user, use the cin object along with the extraction operator `>>`.
+To read an integer from the user, use the `cin` object along with the extraction operator `>>`.
 
 Example:
 ```cpp
@@ -46,7 +46,6 @@ using namespace std;
 int main() {
     string fullName;
     cout << "Enter your full name: ";
-    cin.ignore();  // Ignore any leftover newline character in the buffer
     getline(cin, fullName);  // Read a full line input from the user and store it in the variable 'fullName'
     cout << "Hello, " << fullName << "!" << endl;  // Output the entered value
     return 0;

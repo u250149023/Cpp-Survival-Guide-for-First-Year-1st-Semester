@@ -19,7 +19,7 @@ Whether you're writing your first "Hello, World!" program or exploring more comp
 - [Lesson 02: Understand the different operators and their uses.](./Lesson02/Topic01.md)
 - [Lesson 03: Handle and manipulate text data.](./Lesson03/Topic01.md)
 - [Lesson 04: Convert data types for various operations.](./Lesson04/Topic01.md)
-- [Lesson 05:Use the power of standard libraries.](./Lesson05/Topic01.md)
+- [Lesson 05: Use the power of standard libraries.](./Lesson05/Topic01.md)
 - [Lesson 06: Manage collections of data efficiently.](./Lesson06/Topic01.md)
 - [Lesson 07: Control the flow of your program with conditions.](./Lesson07/Topic01.md)
 - [Lesson 08: Use loops to repeat operations effectively.](./Lesson08/Topic01.md)
